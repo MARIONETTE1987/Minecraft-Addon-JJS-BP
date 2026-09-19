@@ -1,0 +1,44 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": ["THEPUPPET_MARIONETTE"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.8.3"]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [1, 26, 0],
+		"uuid": "7f9e25ed-fc52-4681-b432-cbb2e5453d23",
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "606da968-a7b8-46e7-a10d-dd860732001e",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "e00c6f39-e37f-4dbc-bd8a-38bff08dc2ee",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "2.7.0"
+		},
+		{
+			"module_name": "@minecraft/server-gametest",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "2.0.0"
+		}
+	]
+}
